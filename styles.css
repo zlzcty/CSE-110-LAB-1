@@ -1,0 +1,98 @@
+#section1,
+#section2,
+#section3 {
+    scroll-margin-top: 154px;
+    padding: 16px;
+}
+
+#section1,
+#section3 {
+    background-color: rgb(245, 240, 230);
+}
+
+#section2 {
+    background-image: url(https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg);
+
+}
+
+#section2 h1,
+#section2 p {
+    color: white;
+}
+
+/* Get rid of default styling of ul with padding-left of 40 */
+#navbar ul {
+    padding: 0;
+}
+
+/* Get rid of browser default style */
+body {
+    margin: 0
+}
+
+#navbar {
+    padding-left: 1rem;
+}
+
+#navbar li,
+p {
+    font-size: 28px;
+}
+
+#navbar li {
+    padding: 12px;
+}
+
+#navbar li:hover {
+    background-color: #182b49;
+}
+
+#navbar li:hover a {
+    color: white;
+}
+
+div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar img {
+    max-width: 400px;
+}
+
+/* SECTION 3 */
+.column {
+    float: left;
+
+    /* add padding between column elements */
+    width: calc(25% - 12px);
+    margin: 6px;
+
+    background-color: #182b49;
+    color: white;
+    max-height: 500px;
+    overflow: scroll;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#section3 p {
+    padding: 0 1rem;
+    ;
+}
