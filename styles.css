@@ -96,3 +96,41 @@ div {
     padding: 0 1rem;
     ;
 }
+
+/* task 3 */
+
+img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+
+    /* get rid of navbar links */
+    #navbar ul {
+        display: none;
+    }
+
+    /* max width of top logo to be 75% */
+    #navbar img {
+        max-width: 75%
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 24px;
+    }
+
+    /* 2 column */
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .column {
+        flex: 0 0 45%
+    }
+}
